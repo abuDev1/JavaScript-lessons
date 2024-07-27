@@ -159,6 +159,19 @@
 
 // 4. 
 
-// ???
+/// Упрощенный синтаксис
+// const sum = (numbers, current) => numbers.filter(x => current < x)
 
+// const result = sum( [1, 10, 20, 12, 15, 18, 39],  20);
 
+// console.log(result);
+
+/// Обычный синаксис
+// function sum (numbers, current) {
+//   return numbers.filter(x => current < x)
+// }
+
+// const result = sum( [1, 10, 20, 12, 15, 18, 39],  20);
+
+// console.log(result);
+// console.log(arr([1, 4, 56, 32, 13, 43]));
