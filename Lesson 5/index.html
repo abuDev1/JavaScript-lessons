@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        /* ul {
+            width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: blueviolet;
+        }
+
+        ul > li {
+            color: white;
+            font-size: 23px;
+            font-weight: 600;
+            list-style: none;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .button {
+            width: 600px;
+            margin: 40px auto;
+        }
+
+        button {
+            width: 300px;
+            padding: 15px;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid;
+            cursor: pointer;
+        }
+
+        #myDiv {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: 30px;
+        } */
+
+        .container {
+            width: 1320px;
+            margin: auto;
+            background-color: #c2c2c2;
+            border-radius: 15px;
+        }
+
+        .container > ul {
+            width: 800px;
+            margin: auto;
+            padding: 20px;
+            list-style: none;
+            text-align: center;
+        }
+
+        .container > ul > li {
+            color: white;
+            font-size: 21px;
+            font-weight: 700;
+        }
+
+        .container > .button {
+            width: 400px;
+            margin: auto;
+            padding: 20px;
+        } 
+
+
+        .container > .button > button {
+            width: 400px;
+            background-color: blueviolet;
+            border: 1px solid black;
+            border-radius: 15px;
+            margin: auto;
+            padding: 20px;
+            color: white;
+        }
+
+        .container > .button > button:hover {
+            background-color: black;
+            transition: 0.5s;
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul id="myToDo">
+            <li>– Купить продукты</li>
+            <li>– Сделать уборку</li>
+            <li>– Поговорить с ...</li>
+            <li>– Прогуляться</li>
+        </ul>
+       <div class="button">
+        <button id="toDoButton" onclick="addNewToDo()">
+            Добавить новое дело в список
+        </button>
+       </div>
+    </div>
+
+
+
+    <!-- <div id="myDiv"></div>
+    <button id="setAtribute" onclick="changeStyle()">Изменение стилей блока</button> -->
+
+    <!-- <p id="myParagraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+    <button id="setAtribute" onclick="changeText()">Изменение текста</button> -->
+
+
+    <!-- <img id="myImage"
+    src="image/upload/v1686795211/Space%20Connect/space-exploration-sc_fm1ysf.jpg" 
+    alt="Картинка ракеты"> -->
+
+    <!-- <button id="setAtribute" onclick="changeAtribute()">Изменение атрибута alt</button> -->
+
+
+
+
+
+    <!-- //before
+    <ul id="elementList"> -->
+        <!-- prepend -->
+        <!-- <li>Element item</li> -->
+        <!-- append -->
+    <!-- </ul> -->
+    <!-- after -->
+    <!-- <div class="button">
+        <button id="myButton" onclick="CreateElement()">Add new element in list</button>
+    </div> -->
+
+
+
+    <!-- <h1>Hello, World!</h1>
+    <p>fgkgjndfgjkdfg</p> -->
+
+
+   <!-- // 1. -->
+    <!-- <h1 id="myHeading">Hello, World!</h1> -->
+
+    <!-- <button onclick="changeText()">Click me!</button> -->
+
+    <!-- <script>
+        const changeText = () => {
+            document.getElementById('myHeading').innerHTML = "Hello, DOM!";
+        } 
+    </script> -->
+
+
+   <!-- // 2. -->
+
+   <!-- <button onclick="addNewElement()">Add new Element</button>
+
+   <ul id="myList">
+    <li>item 1</li>
+    <li>item 3</li>
+    <li>item 3</li>
+   </ul>
+   
+    <script>
+        const addNewElement = () => {
+            let newItem = document.createElement("li");
+            let textNode = document.createTextNode('new item 1');
+            newItem.appendChild(textNode);
+            let list = document.getElementById('myList');
+            list.appendChild(newItem);
+        }
+    </script> -->
+
+    
+
+    <script src="DOM.js"></script>
+</body>
+</html>
