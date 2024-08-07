@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,22 +58,26 @@
             border-radius: 15px;
             color: white;
         }
-
     </style>
 </head>
-<body>
-    
 
+<body id="body">
     <ul id="myList">
     </ul>
-        <button id="button1" onclick="addLiEnd()">Добавить li в конец с классом list-item</button>
-        <button id="button2" onclick="addLiStart()">Добавить li в начало с классом list-item</button>
+
+    <div id="button-container">
+        <button id="button1" onclick="addLiEnd()">Добавить li в конец с классом
+            list-item</button>
+        <button id="button2" onclick="addLiStart()">Добавить li в начало с классом
+            list-item</button>
         <button id="button3" onclick="deleteFirstLi()">Удалить первый элемент li</button>
         <button id="button4" onclick="deleteLastLi()">Удалить последний элемент li</button>
-        <button id="button5" onclick="deleteBody()">Удалить body c окрашиванием в черный цвет</button>
-   
+        <button id="button5" onclick="deleteBody()">Удалить body c окрашиванием в
+            черный цвет</button>
+    </div>
 
 
     <script src="Lesson5HomeWork.js"></script>
 </body>
+
 </html>

@@ -35,16 +35,14 @@ function deleteLastLi () {
     elEnd.remove();
 }
 
-// 5. !!!!!!!!!!!!!!!!!! После скрытия или удаления не получается покрасить body !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// 5. 
 
-function deleteBody () {
-    let elBody = document.body.hidden = true;
-    // elBody.remove();
-    // let newBody = document.createElement('body');
-    // newBody.setAttribute('id', 'body');
-    // let myNewBody = document.getElementById('body');
-    // myNewBody.style.backgroundColor = 'black';
+function deleteBody() {
+    const buttons = document.getElementById('button-container')
+    let myNewBody = document.getElementById('body');
+    newLi.remove()
+    buttons.remove()
+    myNewBody.style.backgroundColor = 'black';
 }
-
    
     
