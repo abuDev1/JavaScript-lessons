@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .userName {
+            margin-left: 20px;
+        }
+
+        ul {
+            border: 1px solid;
+            border-radius: 10px;
+            width: 300px;
+            padding: 10px;
+        }
+
+        ul > li {
+            list-style: none;
+        }
+
+        .email {
+            margin-left: 20px;
+        }
+
+        button {
+            padding: 10px;
+            border-radius: 10px;
+            background-color: chartreuse;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="userName">User name:</div>
+    <ul id="userNameUl">
+        
+    </ul>
+    <div class="email">Email:</div>
+    <ul id="emailUl">
+        
+    </ul>
+    <button id="button" onclick="loadUser()">Load user</button>
+    <script src="app.js"></script>
+</body>
+</html>

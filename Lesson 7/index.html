@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson7</title>
+    <style>
+        ul {
+            width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        ul > li {
+            color: white;
+            font-size: 23px;
+            font-weight: 600;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .button {
+            width: 600px;
+            margin: 40px auto;
+        }
+
+        button {
+            width: 300px;
+            padding: 15px;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid;
+            cursor: pointer;
+        }
+
+        #myDiv {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            width: 1320px;
+            margin: auto;
+            background-color: #c2c2c2;
+            border-radius: 15px;
+        }
+
+        .container > ul {
+            width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container > ul > li {
+            color: white;
+            font-size: 21px;
+            font-weight: 700;
+        }
+
+        .container > .button {
+            width: 400px;
+            margin: auto;
+            padding: 20px;
+        } 
+
+
+        .container > .button > button {
+            width: 400px;
+            background-color: blueviolet;
+            border: 1px solid black;
+            border-radius: 15px;
+            margin: auto;
+            padding: 20px;
+            color: white;
+        }
+
+        .container > .button > button:hover {
+            background-color: black;
+            transition: 0.5s;
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <ul id="listElemensts">
+         
+        </ul>
+       <div class="button">
+        <button id="toDoButton" onclick="addPosts()">
+            Показать посты
+        </button>
+       </div>
+    </div>
+
+    <script src="Lesson7.js"></script>
+</body>
+</html>
